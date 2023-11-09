@@ -19,7 +19,7 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         script: |
           cd ~/auth-api
-          git pull origin master
+          git pull origin main
           cd auth-api
           npm install
           npm run migrate up
