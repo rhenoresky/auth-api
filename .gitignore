@@ -5,3 +5,4 @@ package-lock.json
 coverage
 auth-api/config/database/test.json
 auth-api-app-server.pem
+hostname.js
